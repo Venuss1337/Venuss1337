@@ -1,15 +1,5 @@
 <h1 align="center">Hello there, I'm Wiktor Fila</h1>
-<h3 align="center">An aspirational, passionate, motivated back end developer from Poland.</h3>
-
-- 🌱 I’m currently learning **Dart (flutter), C++**
-
-- 👨‍💻 There aren't any projects available to public [soon](soon)
-
-- 💬 Ask me about **Java😎**
-
-- 📫 How to reach me **filetarmed@gmail.com**
-
-- ⚡ Fun fact **No**
+<h3 align="center">An aspirational, passionate, motivated fullstack developer from Poland.</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
