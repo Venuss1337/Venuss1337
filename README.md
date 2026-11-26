@@ -1,66 +1,109 @@
+<h1 align="center">Wiktor Fila</h1>
 
-# Hey, I'm Wiktor 👋
-
-**Software developer building things for the web, desktop, and games.**
-
-I'm based in Poland and currently studying IT. I spend most of my time working on full-stack applications, developer tools, and game-related systems — especially the parts where interfaces meet backend architecture, networking, or performance.
-
-[Portfolio](https://wiktorfila.dev) · [GitHub](https://github.com/Venuss1337) · [Email](mailto:filetarmed@gmail.com)
-
-## Selected projects
-
-**Rolvise** — An operations platform for Roblox roleplay communities. I'm working on multi-workspace permissions, department management, Discord integrations, and ticket workflows.  
-`Next.js` `TypeScript` `Fastify` `PostgreSQL` `Discord.js` · *In development*
-
-**FilaMC** — Minecraft shared-world tooling, including a desktop launcher, Fabric integration, and Rust components for session coordination and networking.  
-`Rust` `Tauri` `Fabric` `Axum` `React` · *In development*
-
-**Moss & Moons** — A stylized sandbox game set on small procedural planets, with editable voxel terrain, caves, overhangs, and persistent world data.  
-`Unity` `C#` `URP` · *Prototype*
-
-**FilaVim** — A native modal code editor built around keyboard-first editing, with early Normal, Insert, and Visual mode support.  
-`Rust` `GPUI` · *Early development*
-
-<details>
-<summary><strong>More projects & experiments</strong></summary>
-
-- **Fila2D** — A learning-focused 2D engine written in C++ using SDL3 and OpenGL.
-- **Chess analysis** — Browser-based chess review experiments using Stockfish WASM and React.
-- **Roblox vehicle simulation** — Early-stage Luau vehicle handling and drivetrain configuration work.
-- **[WEEFX](https://weefx.pl)** — A streamer website focused on frontend design and implementation.
-
-</details>
-
-## Technologies I work with
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="32" height="32" />
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="32" height="32" />
+<p align="center">
+  <strong>Software developer · Desktop applications, web experiences &amp; developer tools</strong>
 </p>
 
-**Web:** React, Next.js, Astro, Tailwind CSS  
-**Backend & data:** Fastify, Axum, PostgreSQL, SQLite, Drizzle ORM  
-**Systems & games:** Rust, C++, C#, Unity, Tauri, Fabric, Luau
+<p align="center">
+  Based in Poland, with an interest in software architecture, interactive design and building complete, usable products.
+</p>
 
-## What I'm focusing on
+<p align="center">
+  <a href="https://wiktorfila.dev"><strong>Portfolio</strong></a> &nbsp;·&nbsp;
+  <a href="mailto:filetarmed@gmail.com">Contact</a>
+</p>
 
-- Building usable releases rather than collecting unfinished prototypes.
-- Getting better at Rust, C++, and software architecture.
-- Turning project work into well-documented, testable software.
+---
 
-I'm open to discussing remote development opportunities, internships, and interesting technical collaborations.
+## Featured work
 
-**[Explore my work →](https://wiktorfila.dev)**
+### ECHO — Music, without the cloud
+
+[![Release](https://img.shields.io/github/v/release/Venuss1337/echo?style=flat-square&label=release&color=476b53)](https://github.com/Venuss1337/echo/releases/latest)
+[![License](https://img.shields.io/badge/license-GPL--3.0--or--later-555555?style=flat-square)](https://github.com/Venuss1337/echo/blob/main/LICENSE)
+
+A local-first music and internet radio player for Windows. ECHO brings together an indexed music library, playlists, live radio and native Windows media integration in an artwork-driven interface called **Atmosphere 2.0**. No accounts, subscriptions, telemetry or cloud dependency.
+
+Its Rust backend manages playback, library data and Windows integration, communicating with the React interface through typed IPC contracts.
+
+[![ECHO — album library and playback interface](https://raw.githubusercontent.com/Venuss1337/echo/main/docs/images/albums.png)](https://github.com/Venuss1337/echo)
+
+`Rust` `Tauri 2` `React` `TypeScript` `SQLite` `libmpv` `FFmpeg`
+
+**[Source code](https://github.com/Venuss1337/echo) · [Download for Windows](https://github.com/Venuss1337/echo/releases/latest) · [Website](https://echo.wiktorfila.dev)**
+
+#### Deep Cut — ECHO's interactive website
+
+An interactive product website built around a visual concept: layers of cut paper illuminated by the music behind them. Instead of relying on conventional 3D models, the experience uses custom WebGL rendering, signed distance fields, procedural lighting and scroll-driven animation.
+
+The site also includes reduced-motion and non-WebGL fallbacks, preserving the visual story across different devices and accessibility preferences.
+
+[![Deep Cut — ECHO website](https://raw.githubusercontent.com/Venuss1337/echo-web/main/docs/showcase/1-cover.webp)](https://echo.wiktorfila.dev)
+
+<p align="center">
+  <a href="https://echo.wiktorfila.dev"><img src="https://raw.githubusercontent.com/Venuss1337/echo-web/main/docs/showcase/2-folder.webp" width="49%" alt="Cut-paper landscape with illuminated typography" /></a>
+  <a href="https://echo.wiktorfila.dev"><img src="https://raw.githubusercontent.com/Venuss1337/echo-web/main/docs/showcase/4-bloom-count.webp" width="49%" alt="Illuminated paper petals and ECHO playback controls" /></a>
+</p>
+
+`TypeScript` `WebGL 2` `Three.js` `GLSL` `GSAP` `Lenis` `Vite`
+
+**[Explore the website](https://echo.wiktorfila.dev) · [Website repository](https://github.com/Venuss1337/echo-web)**
+
+The ECHO player is open source. The website repository is publicly viewable, with its original design and code reserved under its own license.
+
+---
+
+### FilaSignal — Your world. Your logic.
+
+[![Release](https://img.shields.io/github/v/release/Venuss1337/filasignal?style=flat-square&label=release&color=476b53)](https://github.com/Venuss1337/filasignal/releases/latest)
+[![License](https://img.shields.io/badge/license-GPL--3.0--only-555555?style=flat-square)](https://github.com/Venuss1337/filasignal/blob/main/LICENSE)
+
+Programmable computers, hardware and networking for Minecraft, powered by **FilaScript**, a custom event-driven programming language.
+
+FilaSignal includes a standalone language interpreter and CLI, an in-game editor with syntax highlighting, completion and debugging, wired and wireless device networks, persistent storage, multiplayer permission checks and a dedicated documentation website.
+
+[![FilaSignal — display and alarm hardware in Minecraft](https://raw.githubusercontent.com/Venuss1337/filasignal/main/web/public/screenshots/display-alarm.webp)](https://github.com/Venuss1337/filasignal)
+
+`Java 25` `Fabric` `Language design` `Interpreters` `Astro` `Starlight`
+
+**[Source code](https://github.com/Venuss1337/filasignal) · [Documentation](https://venuss1337.github.io/filasignal/) · [Download](https://github.com/Venuss1337/filasignal/releases/latest)**
+
+---
+
+## Other work
+
+Projects currently in development or being explored:
+
+| Project | Focus |
+| :--- | :--- |
+| **FilaVim** | Native modal code editor using Rust and GPUI, with managed language servers and LSP integration. |
+| **FilaMC** | Shared Minecraft worlds, desktop tooling and session networking using Rust, Tauri and Fabric. |
+| **Fila2D** | A learning-focused 2D engine built in C++ with SDL3 and OpenGL. |
+
+## Technologies
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg" alt="Astro" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="32" height="32" />
+</p>
+
+| Area | Technologies |
+| :--- | :--- |
+| Desktop & systems | Rust, Tauri, C++, OpenGL, SQLite |
+| Web & graphics | TypeScript, React, Next.js, Astro, Three.js, Tailwind CSS |
+| Backend & infrastructure | PostgreSQL, Fastify, Axum, Docker |
+| Games & tooling | Java, Fabric, C#, Unity, Luau |
+
+---
+
+<p align="center">
+  Open to remote development opportunities and technical collaborations.<br />
+  <a href="https://wiktorfila.dev"><strong>Explore my portfolio</strong></a>
+</p>
