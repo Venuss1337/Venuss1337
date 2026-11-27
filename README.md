@@ -17,7 +17,7 @@
 
 ## Featured work
 
-### ECHO — Music, without the cloud
+### ECHO - Music, without the cloud
 
 [![Release](https://img.shields.io/github/v/release/Venuss1337/echo?style=flat-square&label=release&color=476b53)](https://github.com/Venuss1337/echo/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-555555?style=flat-square)](https://github.com/Venuss1337/echo/blob/main/LICENSE)
