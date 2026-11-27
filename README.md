@@ -70,6 +70,34 @@ FilaSignal includes a standalone language interpreter and CLI, an in-game editor
 
 ---
 
+### FilaScope — Understand every frame
+
+[![Release](https://img.shields.io/github/v/release/Venuss1337/filascope?style=flat-square&label=release&color=476b53)](https://github.com/Venuss1337/filascope/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-555555?style=flat-square)](https://github.com/Venuss1337/filascope/blob/main/LICENSE)
+
+A lightweight, native Minecraft client performance profiler. FilaScope uses **Mixin and MixinExtras** to instrument frame, tick and rendering stages, with rolling frame-time statistics, stutter detection, bounded gameplay captures and optional sampled mod attribution.
+
+Its interactive interface makes slow frames easier to investigate through live graphs, individual frame inspection and execution timelines, with a configurable gameplay HUD.
+
+[![FilaScope — live performance dashboard](https://raw.githubusercontent.com/Venuss1337/filascope/main/docs/images/live.jpg)](https://github.com/Venuss1337/filascope)
+
+<p align="center">
+  <a href="https://github.com/Venuss1337/filascope"><img src="https://raw.githubusercontent.com/Venuss1337/filascope/main/docs/images/capture.jpg" width="49%" alt="FilaScope capture timeline and selected frame breakdown" /></a>
+  <a href="https://github.com/Venuss1337/filascope"><img src="https://raw.githubusercontent.com/Venuss1337/filascope/main/docs/images/mods.jpg" width="49%" alt="FilaScope installed mods and sampled activity" /></a>
+</p>
+
+#### FilaMCUI — the native rendering foundation
+
+To build FilaScope's interface, I developed **[FilaMCUI](https://github.com/Venuss1337/filamcui)**, a reusable shader-driven rendering and animation library for Minecraft. It provides anti-aliased geometry, batched chart rendering, configurable glass and grain materials, TrueType typography, and interruptible spring and keyframe animations without a browser runtime or a predefined component framework.
+
+The library uses Minecraft's native rendering abstraction and has been tested on OpenGL and Vulkan. It is independently distributed under MIT and bundled with FilaScope.
+
+`Java 25` `Fabric` `Mixin` `MixinExtras` `Blaze3D` `GLSL` `Gradle`
+
+**[Source code](https://github.com/Venuss1337/filascope) · [Download](https://github.com/Venuss1337/filascope/releases/latest) · [User guide](https://github.com/Venuss1337/filascope/blob/main/docs/USER_GUIDE.md) · [Rendering library](https://github.com/Venuss1337/filamcui)**
+
+---
+
 ## Other work
 
 Projects currently in development or being explored:
@@ -78,6 +106,7 @@ Projects currently in development or being explored:
 | :--- | :--- |
 | **FilaVim** | Native modal code editor using Rust and GPUI, with managed language servers and LSP integration. |
 | **FilaMC** | Shared Minecraft worlds, desktop tooling and session networking using Rust, Tauri and Fabric. |
+| **Moss & Moons** | Planetary sandbox game in Unity/C#, with procedural spherical worlds, editable terrain and persistent world data. |
 | **Fila2D** | A learning-focused 2D engine built in C++ with SDL3 and OpenGL. |
 
 ## Technologies
@@ -97,9 +126,9 @@ Projects currently in development or being explored:
 | Area | Technologies |
 | :--- | :--- |
 | Desktop & systems | Rust, Tauri, C++, OpenGL, SQLite |
-| Web & graphics | TypeScript, React, Next.js, Astro, Three.js, Tailwind CSS |
+| Web & graphics | TypeScript, React, Next.js, Astro, Three.js, WebGL, GLSL, Tailwind CSS |
 | Backend & infrastructure | PostgreSQL, Fastify, Axum, Docker |
-| Games & tooling | Java, Fabric, C#, Unity, Luau |
+| Games & tooling | Java, Fabric, Mixin, MixinExtras, Blaze3D, C#, Unity, Luau |
 
 ---
 
